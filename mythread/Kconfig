@@ -1,0 +1,29 @@
+#
+# For a description of the syntax of this configuration file,
+# see the file kconfig-language.txt in the NuttX tools repository.
+#
+
+config EXAMPLES_MY_THREAD
+	tristate "\"hello, mythread!\" example"
+	default n
+	---help---
+		Enable the \"Hello, mythread!\" example
+
+if EXAMPLES_MY_THREAD
+
+config EXAMPLES_MY_THREAD_PROGNAME
+	string "Program name"
+	default "mythread"
+	---help---
+		This is the name of the program that will be used when the NSH ELF
+		program is installed.
+
+config EXAMPLES_MY_THREAD_PRIORITY
+	int "thread task priority"
+	default 100
+
+config EXAMPLES_MY_THREAD_STACKSIZE
+	int "thread stack size"
+	default DEFAULT_TASK_STACKSIZE
+
+endif
