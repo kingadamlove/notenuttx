@@ -15,6 +15,6 @@ git clone https://github.com/ARMinARM/stm32flash.git
 
 #       使用方法
 ##      这个工具的用法可以输入./stm32flash -h进行查阅。
-##      获取设备信息：  sudo stm32flash    /dev/ttyS0
+##      获取设备信息：  sudo stm32flash    /dev/ttyUSB0
 ##      使用如下命令烧录文件    sudo stm32flash -w nuttx.bin -v -g 0 /dev/ttyUSB0
 
