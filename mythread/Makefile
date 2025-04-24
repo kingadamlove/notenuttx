@@ -29,6 +29,6 @@ MODULE    = $(CONFIG_EXAMPLES_MY_THREAD)
 
 # Hello, World! Example
 
-MAINSRC = thread_main.c
+MAINSRC = thread_main.c buffer.c machinestudy.c
 
 include $(APPDIR)/Application.mk

@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "unistd.h": "c",
+        "buffer.h": "c",
+        "cstdint": "c",
+        "array": "c",
+        "string": "c",
+        "buffer": "c",
+        "string_view": "c",
+        "span": "c",
+        "functional": "c",
+        "algorithm": "c",
+        "fcntl.h": "c"
+    }
+}
